@@ -11,6 +11,7 @@ bias = np.random.rand(1)
 learning_rate = 0.01;
 
 for i in range(1000):
+    #linear regression을 경사하강법으로 학습
     prediction = (x_train * y_train) + bias
     error = pow((x_train - y_train),2).mean()
     
