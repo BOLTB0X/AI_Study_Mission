@@ -1,6 +1,3 @@
-import imp
-from inspect import ismethoddescriptor
-from random import shuffle
 import torch
 import torch.nn as nn
 import torchvision.datasets as dset
